@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #4f4f4f;
+}
+
+.container {
+    width: 100vw;
+    height: 500px;
+    display: flex;
+}
+
+.card {
+    width: 33.33%;
+    height: 350px;
+    padding: 10px;
+    border: 1px solid gainsboro;
+}
+
+.task {
+    margin: 15px 0;
+    padding: 5px;
+    width: 70%;
+    height: 35px;
+    border: 1px solid gainsboro;
+    cursor: pointer;
+}
+
+.fill {
+    border: 1px dashed red!important;
+}
+
+.hold {
+    border: 1px dashed gainsboro;
+}
+
+.hover {
+    background: yellow;
+}
